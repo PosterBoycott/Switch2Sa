@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 1.4rem 5rem;
+    background-color: rgb(201, 201, 201);
+}
+
+.nav-bar .item{
+    padding: .5rem .5rem;
+}
+.nav-bar .item:hover{
+    cursor: pointer;
+    scale: 1.1;
+    background-color: azure;
+    border-radius: 3px;
+}
+
+.extra-nav{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.extra-nav .item{
+    padding: 1rem 1rem;
+}
+
+.extra-nav .item:hover{
+    cursor: pointer;
+    background-color: grey;
+}
