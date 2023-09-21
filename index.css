@@ -29,4 +29,18 @@
 .inner-section{
     display: flex;
     margin: 1rem 1rem;
+    flex-wrap:wrap;
+}
+
+#media-goal{
+    margin-bottom: 4rem;
+    justify-self: center;
+    align-self: center;
+    font-size: 12rem;
+}
+
+
+
+.info-section{
+    margin: 1rem 1rem;
 }
